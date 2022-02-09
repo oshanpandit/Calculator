@@ -1,0 +1,95 @@
+body{
+
+    display: flex;
+
+    justify-content: center;
+
+    margin:0%;
+
+}
+
+#main{
+
+    width: 404px;
+
+    height: 570px;
+
+   
+
+}
+
+#display{
+
+    display: flex;
+
+    height:100px;
+
+    justify-content: flex-end;
+
+    align-items: flex-end;
+
+    color:white;
+
+    font-size: 2.7rem;
+
+    background-color:black;
+}
+
+#buttons{
+
+display: flex;
+
+flex-direction: row;
+
+ flex-wrap: wrap; 
+
+
+}
+
+.individual-buttons{
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+height:90px;
+
+width:97.5px;
+
+border: 2px solid rgb(150, 141, 141);
+
+font-size: 2rem;
+
+}
+
+.individual-buttons:hover{
+
+    background-color: powderblue;
+    
+} 
+    
+
+.operator{
+
+    background-color:maroon;
+
+    color:white;
+
+    border:1px solid white;
+}
+
+.operator:hover{
+
+    background-color:lightsalmon;
+}
+
+ 
+#zero{
+    
+    width:198px;
+   
+}
+
+
